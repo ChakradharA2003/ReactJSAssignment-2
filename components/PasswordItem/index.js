@@ -7,11 +7,15 @@ const PasswordItem = props => {
     userName,
     userPassword,
     showPassword,
+    logoColor,
     onDeletePassword,
   } = props
   const deletePassword = () => {
     onDeletePassword(id)
   }
+  const charLogo = logoColor.replace(/[0-9]/g, '')
+  const slicedLogo = charLogo.slice(1, charLogo.length)
+  console.log(`${slicedLogo}-logo`)
   const firstLetter = userName.slice(0, 1)
   const passwordView = showPassword ? (
     <p className="password">{userPassword}</p>
@@ -27,7 +31,7 @@ const PasswordItem = props => {
   return (
     <li className="password-list">
       <div className="user-container">
-        <p className="logo">{firstLetter}</p>
+        <p className={`${slicedLogo}-logo`}>{firstLetter}</p>
         <div className="user-details-container">
           <p className="website">{websiteName}</p>
           <p className="name">{userName}</p>
