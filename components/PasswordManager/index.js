@@ -31,18 +31,15 @@ class PasswordManager extends Component {
       '#0ea5e9',
       '#64748b',
     ]
-    let index = -1
-    if (index > bgColors.length - 1) {
-      index = 0
-    } else {
-      index += 1
-    }
+    const randomIndex =
+      Math.floor(Math.random() * (bgColors.length - 1 - 0 + 1)) + 0
+
     const newPassword = {
       id: uuidv4(),
       websiteName: website,
       userName: name,
       userPassword: password,
-      logoColor: bgColors[index],
+      logoColor: bgColors[randomIndex],
     }
     this.setState(prevState => ({
       passwordList: [...prevState.passwordList, newPassword],
