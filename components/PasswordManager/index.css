@@ -184,6 +184,10 @@ hr {
   align-items: center;
 }
 @media (max-width: 767px) and (orientation: portrait) {
+  .zero-passwords-image {
+    height: 300px;
+    width: 350px;
+  }
   .add-password-container {
     display: flex;
     flex-direction: column;
