@@ -56,6 +56,129 @@
   height: 25px;
   width: 25px;
 }
+.bff-logo {
+  background-color: #0b69ff;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.ab-logo {
+  background-color: #94a3b8;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.bcca-logo {
+  background-color: #b6c3ca;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.cb-logo {
+  background-color: #7683cb;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.feb-logo {
+  background-color: #f59e0b;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.b-logo {
+  background-color: #10b981;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.f-logo {
+  background-color: #f97316;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.ba-logo {
+  background-color: #14b8a6;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+.bcc-logo {
+  background-color: #b91c1c;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
+
+.eae-logo {
+  background-color: #0ea5e9;
+  height: 40px;
+  width: 40px;
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 25px;
+}
+.b-logo {
+  background-color: #64748b;
+  height: 40px;
+  width: 40px;
+
+  color: #f8fafc;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+}
 @media (max-width: 767px) and (orientation: portrait) {
   .password-list {
     width: 100%;
